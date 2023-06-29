@@ -401,6 +401,8 @@ border: solid 2px #1a1b1c;
   }
   .chat-footer{
       text-align: right;
+      font-size: 1.2rem;
+      padding-top: 10px;
   }
   .chat-box-container-2{
       background-color: #4C5153;
@@ -425,10 +427,12 @@ border: solid 2px #1a1b1c;
   .vpres-img{
       display: grid;
       width: 100%;
-      float: right;
+      justify-content: end;
       margin-right: 30px;
       padding-right: 35px ;
+      margin-bottom: 50px;
   }
+
 
 }
 @media screen and (max-width: 500px){
